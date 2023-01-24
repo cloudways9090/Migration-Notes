@@ -1,0 +1,24 @@
+Rsync Command : 
+rsync -zarvh ./ master_hcmgqpshdc@167.99.242.185:/home/master/applications/xrsqzgtqrt/public_html/
+
+#For taking dump without tablespaces
+mysqldump -h hostname -u dbusername -p dbname --no-tablespaces > dbback.sql
+
+#For taking dump of all databases
+mysqldump --all-databases  > all_databases.sql
+
+#For transferring files and folders through rsync
+rsync -avzr source_username@source_ip:/source/directory/ /destinaton/path/ 
+
+rsync -avzr /source/directory/  destination_username@destination_ip:/destination/directory/  
+
+Wget Command: 
+wget 'https://drive.google.com/uc?export=download&id=<FILE_ID>&confirm=yes' -O <FILE_NAME>
+
+Screen : 
+Screen -S migration , screen -ls ,
+
+To check existing symlinks
+find . -type l -ls
+
+
